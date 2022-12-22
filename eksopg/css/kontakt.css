@@ -1,0 +1,79 @@
+
+
+/* kontakt siden */
+
+.flexcontainer {
+    display: inline-block;
+    display: flex;
+    background-color: #1D1B1C;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;          
+}
+
+.kontaktimg img {
+    border-radius: 50%;
+    border: 2px solid #ECEAEA;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ 
+}
+
+.kontakt1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.overskrift1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ECEAEA;
+    margin-bottom: 10px;
+    
+}
+
+.p1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ECEAEA;
+    margin-bottom: 10px;
+}
+
+.p2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ECEAEA;
+    margin-bottom: 10px;
+}
+
+@media all and (max-width: 768px) {
+    .flexcontainer {
+        flex-wrap: wrap;
+    }
+    .overskrift1 {
+        font-size: 20px;
+    }
+    .p1 {
+        font-size: 15px;
+    }
+    .p2 {
+        font-size: 15px;
+    }
+   
+}
+
+@media all and (min-width: 628px) {
+    .kontakt1 {
+        margin: 50px;
+    }
+}
+
+
+

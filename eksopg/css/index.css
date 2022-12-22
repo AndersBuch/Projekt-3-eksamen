@@ -1,0 +1,119 @@
+
+
+/* Forsiden */
+
+.flexcontainer {
+    display: inline-block;
+    background-color: #1D1B1C;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.forsideimg {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-left: 50px;
+}
+
+.forsideimg img {
+    max-width: 80%;
+    
+}
+
+.tekstboks {
+    display: flex;
+    flex-direction: column;
+    color: #ECEAEA;
+    text-align: center;
+    align-items: center;
+    margin-top: 110px;
+    margin-left: -100px;
+    
+}
+
+.overskrift1 {
+    font-weight: 600;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+}
+
+.underoverskrift1 {
+    font-weight: 200;
+    font-size: 30px;
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+.tekst {
+    font-weight: 100;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+
+.knap  {
+    background-color:#070707;
+    border: 0px;
+    color: #ECEAEA;
+   display: inline-block;
+   padding: 12px 24px;
+   font-size: 40px;
+   font-weight: 500;
+   border-radius: 8px;
+   margin-top: 200px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+}
+
+.knap a {
+    color: #ECEAEA;
+    text-decoration: none;
+}
+
+.knap:hover {
+    background-color: #818181;
+}
+
+@media all and (max-width: 1024px) {
+    .flexcontainer {
+        flex-direction: column;
+    }
+    .overskrift1 {
+        font-size: 50px;
+    }
+    .underoverskrift1 {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .tekst {
+        font-size: 30px;
+    }
+    .tekstboks {
+        margin-left: 0px;
+    }
+    .knap {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .forsideimg {
+        margin-left: 0px;
+        margin-top: 0px;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+

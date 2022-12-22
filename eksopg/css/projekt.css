@@ -1,0 +1,291 @@
+
+
+/* Første Xd projekt */
+
+.boks1 {
+    display: inline-block;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    color: #ECEAEA;
+    background-color: #1D1B1C;
+    
+}
+
+.tekstboks {
+    padding: 30px;
+    text-align: left;
+}
+
+.overskrift1 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.tekst1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+.billede1 {
+    padding: 10px;
+}
+
+.billede2 {
+    padding: 10px;
+}
+
+.billede3 {
+    padding: 10px;
+}
+
+@media all and (max-width: 500px) {
+    .boks1 {
+        flex-wrap: wrap-reverse;
+        font-size: 75%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 1250px) and (min-width: 501px) {
+    .boks1 {
+        flex-direction: column-reverse;  
+    }
+}
+
+/* Hunde dating app */
+
+.boks2 {
+    display: inline-block;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    color: #ECEAEA;
+    background-color: #262626
+    
+}
+
+.tekstboks2 {
+    padding: 30px;
+    text-align: left;
+}
+
+.overskrift11 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.tekst11 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+.billede11 {
+    padding: 10px;
+}
+
+.billede22 {
+    padding: 10px;
+}
+
+.billede33 {
+    padding: 10px;
+}
+
+@media all and (max-width: 500px) {
+    .boks2 {
+        flex-wrap: wrap;
+        font-size: 75%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 1250px) and (min-width: 501px) {
+    .boks2 {
+        flex-direction: column;  
+    }
+}
+
+/* Projekt 2 - koncept */
+
+.boks3 {
+    display: inline-block;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    color: #ECEAEA;
+    background-color: #1D1B1C;
+    
+}
+
+.tekstboks3 {
+    padding: 30px;
+    text-align: left;
+}
+
+.projektoverskrift {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.projekttekst {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+.billede44 {
+    padding: 10px;
+}
+
+@media all and (max-width: 500px) {
+    .boks3 {
+        flex-wrap: wrap;
+        font-size: 75%;
+        text-align: center;
+        justify-content: center;
+    }
+    .img44 {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 1250px) and (min-width: 501px) {
+    .boks3 {
+        flex-direction: column-reverse;
+    }
+    .img44 {
+        width: 90%;
+    }
+}
+
+/* Redesign af hjemmeside */
+
+.boks4 {
+    display: inline-block;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    color: #ECEAEA;
+    background-color: #262626;
+    
+}
+
+.tekstboks4 {
+    padding: 30px;
+    text-align: left;
+}
+
+.projektoverskrift11 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.projekttekst11 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+.billede55 {
+    padding: 10px;
+}
+
+@media all and (max-width: 500px) {
+    .boks4 {
+        flex-wrap: wrap-reverse;
+        font-size: 75%;
+        text-align: center;
+        justify-content: center;
+    }
+    .img55 {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 1250px) and (min-width: 501px) {
+    .boks4 {
+        flex-direction: column;
+    }
+    .img55 {
+        width: 90%;
+    }
+}
+
+/* CSS Animation Workshop */
+
+.boks5 {
+    display: inline-block;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    color: #ECEAEA;
+    background-color: #1D1B1C;
+    
+}
+
+.tekstboks5 {
+    padding: 30px;
+    text-align: left;
+}
+
+.projektoverskrift22 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.projekttekst22 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+.linktekst {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+.linktekst a {
+    font-weight: 500;
+}
+
+.billede66 {
+    padding: 10px;
+}
+
+@media all and (max-width: 500px) {
+    .boks5 {
+        flex-wrap: wrap;
+        font-size: 75%;
+        text-align: center;
+        justify-content: center;
+    }
+    .img66 {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 1250px) and (min-width: 501px) {
+    .boks5 {
+        flex-direction: column-reverse;
+    }
+    .img66 {
+        width: 90%;
+    }
+}
+

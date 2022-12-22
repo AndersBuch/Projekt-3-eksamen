@@ -1,0 +1,273 @@
+
+
+/* portfolio */
+
+.flexcontainer {
+    display: inline-block;
+    background-color: #1D1B1C;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    
+}
+
+
+
+.imgportfolio1 img {
+    max-width: 40%;
+    border: 3px solid #1D1B1C;
+    border-radius: 20px;  
+}
+
+.tekstboks {
+    display: flex;
+    flex-direction: column;
+    color: #ECEAEA;
+    text-align: center;
+    align-items: center;
+    margin-left: -550px;
+
+}
+
+.overskrift {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.btekst {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+
+ .knap1  {
+    background-color:#070707;
+    border: 0px;
+    color: #ECEAEA;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-top: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+}
+
+.knap1 a {
+    color: #ECEAEA;
+    text-decoration: none;
+}
+
+.knap1:hover {
+    background-color: #818181;
+} 
+
+@media all and (max-width: 768px) {
+    .flexcontainer {
+        flex-direction: column;
+    }
+    .overskrift {
+        font-size: 25px;
+    }
+    .btekst {
+        font-size: 15px;
+    }
+    .tekstboks {
+        margin-left: 0px;
+    }
+    .knap1 {
+        margin-top: 50px;
+    }
+    .imgportfolio1 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+/* Erfaring og Kompetencer */
+
+.flexcontainer2 {
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #262626;
+    width: 100%;
+    padding: 50px;
+    text-align: left;
+    color: #ECEAEA;
+}
+
+.flexcontainer2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.flexcontainer2 li {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.erfaring {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.kompetencer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.listoverskrift1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.listoverskrift2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+@media all and (max-width: 660px) {
+    .flexcontainer2 {
+        flex-direction: column;
+    }
+    .flexcontainer2 {
+        text-align: center;
+    }
+    .kompetencer {
+        margin-top: 20px;
+    }
+}
+
+/* Udklip af projekt 2 */
+
+.boks3 {
+    display: inline-block;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    color: #ECEAEA;
+    background-color: #1D1B1C;
+    
+}
+
+.tekstboks3 {
+    padding: 30px;
+    text-align: left;
+}
+
+.projektoverskrift {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.projekttekst {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+.billede44 {
+    padding: 10px;
+}
+
+
+.fremprojekt {
+    display: inline-block;
+    background-color: #1D1B1C;
+    padding-top: 40px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #ECEAEA;
+    font-size: 50px;
+
+    
+}
+
+.knap2  {
+    background-color:#070707;
+    border: 0px;
+    color: #ECEAEA;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-top: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+}
+
+.knap2 a {
+    color: #ECEAEA;
+    text-decoration: none;
+}
+
+.knap2:hover {
+    background-color: #818181;
+} 
+
+@media all and (max-width: 500px) {
+    .boks3 {
+        flex-wrap: wrap;
+        font-size: 75%;
+        text-align: center;
+        justify-content: center;
+    }
+    .img44 {
+        width: 70%;
+    }
+    .fremprojekt {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 1250px) and (min-width: 501px) {
+    .boks3 {
+        flex-wrap: wrap-reverse;
+    }
+    .img44 {
+        width: 70%;
+    }
+    .knap2 {
+        display: flex;
+        justify-items: flex-end;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

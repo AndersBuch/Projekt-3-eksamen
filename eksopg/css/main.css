@@ -1,0 +1,106 @@
+/* Root og andre standard indstillinger */
+
+body {
+    background-color: #ECEAEA;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Header */
+
+.header1 {
+ font-family: 'roboto', sans-serif;
+ font-size: 20px;
+ text-align: center;
+ max-width: 100%;
+ margin-bottom: 40px;
+ margin-top: 40px;
+ 
+}
+
+@media all and (max-width: 500px) {
+
+    .header1 {
+        font-size: 15px;
+    }
+            
+}
+
+/* Navigations område */
+
+.navigation a {
+    color: #1D1B1C;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation a:hover {
+    background-color: #1D1B1C;
+    border: #1D1B1C;
+    color: #ECEAEA;  
+}
+
+.navigation ul {
+    border-bottom: 2px solid #1D1B1C;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+      
+}
+
+.navigation li {
+    flex-basis: 100%;
+     
+}
+
+@media all and (min-width: 750px) {
+    .navigation ul {
+        flex-wrap:nowrap;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    .navigation li {
+        flex: 1 1 100%;
+    }
+    
+           
+}
+
+/* footer */
+
+.footer1 {
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 90px;
+    background-color: #262626;
+    width: 100%;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ECEAEA;
+}
+
+.linked1 i {
+    color: #0077B5;
+    font-size: 50px;
+}
